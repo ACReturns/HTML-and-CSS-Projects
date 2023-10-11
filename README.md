@@ -1,7 +1,7 @@
 # HTML and CSS Projects
  All HTML/ CSS projects are stored here for the course
 
-##Table of Contents
+Table of Contents
 1. [Introduction](#Introduction)
 2. [Technologies](#Technoogies)
 
