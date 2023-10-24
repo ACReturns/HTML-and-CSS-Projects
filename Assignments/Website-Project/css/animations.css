@@ -32,7 +32,7 @@
 
 .menu li:hover
 {
-    color: #f00;
+    color: #fff;
     background-color: rgba(100, 65, 0, 0.3);
 }
 
@@ -98,6 +98,7 @@
 .photo-overlay:hover
 {
     opacity: 1;
+    cursor: url(../images/thumb/thumbnail_cursor.png), auto;
 }
 
 .photo img
