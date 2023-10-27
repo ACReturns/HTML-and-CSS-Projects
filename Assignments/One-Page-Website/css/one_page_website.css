@@ -106,19 +106,12 @@ strong
 .food-options
 {
     text-align: center;
-    margin: 15px auto;
-    width: 300px;
+    margin-left: auto;
+    margin: 15px;
+    width: 1100px;
     height: 250px;
-    
+    display: inline-flex;
 }
-
-.food-options::after
-{
-    content: "";
-    clear: both;
-    display: table;
-}
-
 
 .food
 {
@@ -133,15 +126,10 @@ strong
     box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.7);
 }
 
-
-@media (min-width: 2000px)
+.kid-options
 {
-    .container
-    {
-        width: 1800px;
-    }
+    margin-left: 650px;
 }
-
 
 /* Body End */
 
