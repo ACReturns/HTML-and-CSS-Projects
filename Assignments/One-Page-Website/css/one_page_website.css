@@ -12,7 +12,7 @@ input
     border-radius: 10px;
 }
 
-/* Submission Reqs above */
+/* Submission Reqs End */
 
 /* Navigation Menu */
 .nav-menu
@@ -106,7 +106,6 @@ strong
 .food-options
 {
     text-align: center;
-    margin-left: auto;
     margin: 15px;
     width: 1100px;
     height: 250px;
