@@ -1,0 +1,28 @@
+.nav-container
+{
+    margin: auto;
+    margin-left: auto;
+    margin-right: 100%;
+    width: 50%;
+}
+
+.nav-menu
+{
+    text-align: center;
+    display: inline;
+    padding: 0%;
+    font: bold 12px;
+}
+
+.nav-menu li
+{
+    background-color: brown;
+    display: inline-block;
+    margin: 0% auto;
+    border-radius: 5px;
+}
+
+.nav-menu li:hover
+{
+    background-color: aqua;
+}

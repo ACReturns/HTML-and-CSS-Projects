@@ -1,0 +1,17 @@
+table, tr, th
+{
+    border: 1px solid blue;
+    border-collapse: collapse;
+    width: 20%;
+    padding: 10px;
+}
+
+body
+{
+    text-align: center;
+}
+
+.table-head
+{
+    background-color: aqua;
+}

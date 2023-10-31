@@ -1,0 +1,15 @@
+.centerpiece
+{
+    display: block;
+    width: 70%;
+    margin-top: 30%;
+    margin-bottom: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+img
+{
+    filter: sepia(50%);
+}
