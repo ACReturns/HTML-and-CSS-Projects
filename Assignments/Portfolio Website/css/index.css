@@ -65,6 +65,22 @@ body
 .Github_img:hover img:first-child{display: none;}
 .Github_img:hover img:last-child{display: inline-block;}
 
+.Github_img img
+{
+    width: 80px;
+    height: 80px;
+}
+
+.LinkedIn_img img:last-child{display: none;}
+.LinkedIn_img:hover img:first-child{display: none;}
+.LinkedIn_img:hover img:last-child{display: inline-block;}
+
+.LinkedIn_img img
+{
+    width: 100px;
+    height: 80px;
+}
+
 /*===Body Settings End===*/
 
 /*===Contact Settings Begin===*/
@@ -97,9 +113,8 @@ input[type=submit]
     border: none; /* Removes the border from the submit button */
     border-radius: 4px; /* Gives the submit button the same rounded corners as the text boxes */
     cursor: pointer; /* Changes the cursor to pointer when over the submit button */
-    display: block; /* Allows the submit button to be centered */
-    margin-left: auto; /* In combination with "margin-right: auto" this will center the submit button */
-    margin-right: auto;
+    display: block; 
+    margin-left: auto; 
     font-family: Perpetua, Rockwell Extra Bold;
 }
 
@@ -110,6 +125,17 @@ input[type=submit]:hover
     color: white; /* Turns the font white when hovered over */
 }
 
+#Name, #Email
+{
+    width: 355px;
+}
+
+textarea
+{
+    width: 715px;
+    height: 120px
+}
+
 /* Form element */
 form 
 {
@@ -117,7 +143,11 @@ form
     background-color: #f2f2f2; 
     padding: 10px; 
     margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
     font-family: "Trebuchet MS", Optima;
+    text-align: left;
+    width: 735px;
 }
 /*===Contact Settings End===*/
 
