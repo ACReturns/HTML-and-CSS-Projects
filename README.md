@@ -3,7 +3,7 @@
 
 Table of Contents
 1. [Introduction](#Introduction)
-2. [Technologies](#Technoogies)
+2. [Technologies](#Technologies)
 3. [Projects](#Projects)
 	- [The World Warriors](#Website-Project)
 	- [Hip Snackz](#One-Page-Website)
