@@ -12,7 +12,6 @@ input
     border-radius: 10px;
 }
 
-/* Submission Reqs End */
 
 /* Navigation Menu */
 .nav-menu
@@ -152,7 +151,100 @@ footer, nav
     display: block;
     margin: 5px;
 }
-
-
-
 /* Footer End */
+
+
+/* #region Modal content */
+.modal
+{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(10, 10, 10);
+}
+
+.modal-content
+{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* Close button */
+.close
+{
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus
+{
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.myFood
+{
+    display: none;
+}
+
+.cursor
+{
+    display: none;
+}
+
+/* Next/ Prev buttons */
+.prev, .next
+{
+    cursor: pointer;
+    position: absolute;
+    top: 15%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next
+{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover
+{
+    background-color: #999;
+}
+
+img.demo
+{
+    opacity: 0.6;
+}
+
+.foodThumbnail
+{
+    float: left;
+    width: 16%;
+}
+
+/* #endregion Modal content */

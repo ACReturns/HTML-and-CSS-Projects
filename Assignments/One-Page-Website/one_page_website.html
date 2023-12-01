@@ -3,6 +3,7 @@
 	<head>
 		<title>Hip Snackz</title>
 		<link rel="stylesheet" href="./css/one_page_website.css">
+		<script src="./js/one_page_website.js" defer></script> 
 		<link rel="icon" href="./images/thumb/thumbnail_tab.jpg">
 	</head>
 	
@@ -27,41 +28,101 @@
 					<div class="food-options">
 
 						<div class="food">
-							<img src="./images/donut.png" alt="Donut"></img>
+							<img src="./images/donut.png" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="Donut"></img>
 							<p>Donut Worry About It</p>
 						</div>
 
 						<div class="food">
-							<img src="./images/fries.png" alt="Fries"></img>
+							<img src="./images/fries.png" onclick="openModal();currentSlide(2)" class="hover-shadow" alt="Fries"></img>
 							<p>French Fightin' Friez</p>
 						</div>
 
 						<div class="food">
-							<img src="./images/hamburger.png" alt="Hamburger"></img>
+							<img src="./images/hamburger.png" onclick="openModal();currentSlide(3)" class="hover-shadow" alt="Hamburger"></img>
 							<p>Slidin' Burgerz</p>
 						</div>
 
 						<div class="food">
-							<img src="./images/hotdog.png" alt="Hotdog"></img>
+							<img src="./images/hotdog.png" onclick="openModal();currentSlide(4)" class="hover-shadow" alt="Hotdog"></img>
 							<p>Beat Box Dog</p>
 						</div>
 						<div class="food">
-							<img src="./images/pizza.png" alt="Pizza"></img>
+							<img src="./images/pizza.png" onclick="openModal();currentSlide(5)" class="hover-shadow" alt="Pizza"></img>
 							<p>Curlin' Slicez</p>
 						</div>
 
 						<div class="food">
-							<img src="./images/popcorn.png" alt="Popcorn"></img>
+							<img src="./images/popcorn.png" onclick="openModal();currentSlide(6)" class="hover-shadow" alt="Popcorn"></img>
 							<p>What's Poppin'</p>
 						</div>
 					</div>
-					
+
 				</div>
 				<h2>We also have fresh fruit for the kiddo's!</h2>
 					<div class="kid-options">
 						<iframe width="224" height="400" src="https://www.youtube.com/embed/FN0CFuFDcXU" title="Ghibli food compilation 🍅 | Source: Douyin" 
 						frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 					</div>
+			</div>
+
+			<div id="myModal" class="modal">
+				<span class="close" onclick="closeModal()">&times;</span>
+				<div class="modal-content">
+
+					<div class="myFood">
+						<img src="./images/donut_large.png" style="width: 100%;">
+					</div>
+
+					<div class="myFood">
+						<img src="./images/fries_large.png" style="width: 100%;">
+					</div>
+					
+					<div class="myFood">
+						<img src="./images/hamburger_large.png" style="width: 100%;">
+					</div>
+
+					<div class="myFood">
+						<img src="./images/hotdog_large.png" style="width: 100%;">
+					</div>
+
+					<div class="myFood">
+						<img src="./images/pizza_large.png" style="width: 100%;">
+					</div>
+
+					<div class="myFood">
+						<img src="./images/popcorn_large.png" style="width: 100%;">
+					</div>
+
+					<div class="foodThumbnail">
+						<img class="demo" src="./images/donut.png" style="width:50%" onclick="currentSlide(1)" alt="Donuts">
+					</div>
+					
+					<div class="foodThumbnail">
+						<img class="demo" src="./images/fries.png" style="width:50%" onclick="currentSlide(2)" alt="Fries">
+					</div>
+					
+					<div class="foodThumbnail">
+						<img class="demo" src="./images/hamburger.png" style="width:50%" onclick="currentSlide(3)" alt="Hamburgers">
+					</div>
+					
+					<div class="foodThumbnail">
+						<img class="demo" src="./images/hotdog.png" style="width:50%" onclick="currentSlide(4)" alt="Hotdogs">
+					</div>
+
+					<div class="foodThumbnail">
+						<img class="demo" src="./images/pizza.png" style="width:50%" onclick="currentSlide(5)" alt="Pizza">
+					</div>
+
+					<div class="foodThumbnail">
+						<img class="demo" src="./images/popcorn.png" style="width:50%" onclick="currentSlide(6)" alt="Popcorn">
+					</div>
+
+				</div>
+
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				</div>
 			</div>
 		</section>
 		
