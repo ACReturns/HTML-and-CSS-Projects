@@ -12,7 +12,6 @@ input
     border-radius: 10px;
 }
 
-
 /* Navigation Menu */
 .nav-menu
 {
@@ -92,7 +91,6 @@ h2, h4
 .food-menu
 {
     display: -webkit-flex;
-    display: flex;
     flex-wrap: wrap;
     padding: 10px;
     border-radius: 8px;
@@ -121,6 +119,11 @@ h2, h4
     border: 1px solid #000000;
     background-color: rgb(229, 229, 229);
     box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.7);
+}
+
+.food:hover
+{
+    box-shadow: 2px 2px 10px 0 rgba(255, 255, 255, 0.7);
 }
 
 .kid-options
@@ -236,15 +239,23 @@ footer, nav
     background-color: #999;
 }
 
-img.demo
+img.foodThumbnail
 {
     opacity: 0.6;
 }
 
+.active,
+.foodThumbnail:hover 
+{
+  opacity: 1;
+}
+
 .foodThumbnail
 {
-    float: left;
+    /*float: left;*/
     width: 16%;
+    margin-bottom: 50%;
+    opacity: 0.6;
 }
 
 /* #endregion Modal content */
