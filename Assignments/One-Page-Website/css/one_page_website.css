@@ -73,7 +73,7 @@ body
     background-color: #9D9FA2;
 }
 
-h2, h4
+h2, h3
 {
     text-align: center;
 }
@@ -95,7 +95,7 @@ h2, h4
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
-    padding-top: 2%;
+    padding-top: 1%;
 }
 
 .food-options > .food
@@ -108,8 +108,9 @@ h2, h4
     text-align: center;
     margin: 15px;
     width: 1100px;
-    height: 250px;
-    display: inline-flex;
+    height: 200px;
+    display: inline-flexbox;
+    margin-bottom: 28%;
 }
 
 .food-options::after
@@ -175,7 +176,7 @@ footer, nav
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 5%;
+    padding-top: 2%;
     left: 0;
     top: 0;
     width: 100%;
@@ -243,7 +244,7 @@ footer, nav
 .next
 {
     left: 0;
-    margin-left: 22%;
+    margin-left: 22.5%;
     border-radius: 3px 0 0 3px;
 }
 
